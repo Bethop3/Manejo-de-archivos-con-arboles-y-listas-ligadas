@@ -19,10 +19,24 @@ namespace Manejo_de_archivos_con_arboles_y_listas_ligadas
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
         }
 
         private void editableList1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cyberTextBox1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void smallLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void airForm1_Click(object sender, EventArgs e)
         {
 
         }
