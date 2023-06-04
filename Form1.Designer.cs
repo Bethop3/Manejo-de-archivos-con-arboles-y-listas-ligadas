@@ -97,7 +97,7 @@
             dreamTextBox1.ForeColor = System.Drawing.Color.FromArgb(40, 218, 255);
             dreamTextBox1.Location = new System.Drawing.Point(32, 73);
             dreamTextBox1.Name = "dreamTextBox1";
-            dreamTextBox1.Size = new System.Drawing.Size(145, 27);
+            dreamTextBox1.Size = new System.Drawing.Size(145, 23);
             dreamTextBox1.TabIndex = 2;
             // 
             // airForm1
@@ -124,12 +124,13 @@
             airForm1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             airForm1.Image = null;
             airForm1.Location = new System.Drawing.Point(0, 0);
-            airForm1.MinimumSize = new System.Drawing.Size(112, 35);
+            airForm1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            airForm1.MinimumSize = new System.Drawing.Size(98, 26);
             airForm1.Movable = true;
             airForm1.Name = "airForm1";
             airForm1.NoRounding = false;
             airForm1.Sizable = true;
-            airForm1.Size = new System.Drawing.Size(800, 450);
+            airForm1.Size = new System.Drawing.Size(975, 480);
             airForm1.SmartBounds = true;
             airForm1.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             airForm1.TabIndex = 0;
@@ -141,9 +142,10 @@
             // pictureBox3
             // 
             pictureBox3.Image = (System.Drawing.Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new System.Drawing.Point(363, 18);
+            pictureBox3.Location = new System.Drawing.Point(344, 380);
+            pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new System.Drawing.Size(106, 100);
+            pictureBox3.Size = new System.Drawing.Size(93, 75);
             pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 18;
             pictureBox3.TabStop = false;
@@ -151,9 +153,10 @@
             // pictureBox2
             // 
             pictureBox2.Image = (System.Drawing.Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new System.Drawing.Point(379, 342);
+            pictureBox2.Location = new System.Drawing.Point(516, 380);
+            pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new System.Drawing.Size(90, 96);
+            pictureBox2.Size = new System.Drawing.Size(79, 72);
             pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 17;
             pictureBox2.TabStop = false;
@@ -164,9 +167,9 @@
             smallLabel5.BackColor = System.Drawing.Color.Transparent;
             smallLabel5.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             smallLabel5.ForeColor = System.Drawing.Color.FromArgb(142, 142, 142);
-            smallLabel5.Location = new System.Drawing.Point(12, 9);
+            smallLabel5.Location = new System.Drawing.Point(10, 7);
             smallLabel5.Name = "smallLabel5";
-            smallLabel5.Size = new System.Drawing.Size(182, 19);
+            smallLabel5.Size = new System.Drawing.Size(143, 13);
             smallLabel5.TabIndex = 16;
             smallLabel5.Text = "ARBOLES Y LISTAS LIGADAS";
             // 
@@ -176,9 +179,9 @@
             smallLabel4.BackColor = System.Drawing.Color.Transparent;
             smallLabel4.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             smallLabel4.ForeColor = System.Drawing.Color.FromArgb(142, 142, 142);
-            smallLabel4.Location = new System.Drawing.Point(389, 131);
+            smallLabel4.Location = new System.Drawing.Point(432, 86);
             smallLabel4.Name = "smallLabel4";
-            smallLabel4.Size = new System.Drawing.Size(101, 19);
+            smallLabel4.Size = new System.Drawing.Size(86, 13);
             smallLabel4.TabIndex = 15;
             smallLabel4.Text = "Colaboradores:";
             // 
@@ -188,9 +191,9 @@
             dungeonHeaderLabel3.BackColor = System.Drawing.Color.Transparent;
             dungeonHeaderLabel3.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             dungeonHeaderLabel3.ForeColor = System.Drawing.Color.White;
-            dungeonHeaderLabel3.Location = new System.Drawing.Point(560, 66);
+            dungeonHeaderLabel3.Location = new System.Drawing.Point(753, 79);
             dungeonHeaderLabel3.Name = "dungeonHeaderLabel3";
-            dungeonHeaderLabel3.Size = new System.Drawing.Size(187, 25);
+            dungeonHeaderLabel3.Size = new System.Drawing.Size(146, 20);
             dungeonHeaderLabel3.TabIndex = 14;
             dungeonHeaderLabel3.Text = "Simulador Disco C:\\";
             // 
@@ -200,9 +203,9 @@
             smallLabel3.BackColor = System.Drawing.Color.Transparent;
             smallLabel3.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             smallLabel3.ForeColor = System.Drawing.Color.FromArgb(142, 142, 142);
-            smallLabel3.Location = new System.Drawing.Point(363, 310);
+            smallLabel3.Location = new System.Drawing.Point(505, 333);
             smallLabel3.Name = "smallLabel3";
-            smallLabel3.Size = new System.Drawing.Size(127, 19);
+            smallLabel3.Size = new System.Drawing.Size(105, 13);
             smallLabel3.TabIndex = 13;
             smallLabel3.Text = "Porras Vargas Rony";
             // 
@@ -212,9 +215,9 @@
             smallLabel2.BackColor = System.Drawing.Color.Transparent;
             smallLabel2.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             smallLabel2.ForeColor = System.Drawing.Color.FromArgb(142, 142, 142);
-            smallLabel2.Location = new System.Drawing.Point(358, 290);
+            smallLabel2.Location = new System.Drawing.Point(330, 333);
             smallLabel2.Name = "smallLabel2";
-            smallLabel2.Size = new System.Drawing.Size(144, 19);
+            smallLabel2.Size = new System.Drawing.Size(120, 13);
             smallLabel2.TabIndex = 12;
             smallLabel2.Text = "Estrada Canto Alberto";
             // 
@@ -224,9 +227,9 @@
             dungeonHeaderLabel2.BackColor = System.Drawing.Color.Transparent;
             dungeonHeaderLabel2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             dungeonHeaderLabel2.ForeColor = System.Drawing.Color.White;
-            dungeonHeaderLabel2.Location = new System.Drawing.Point(42, 252);
+            dungeonHeaderLabel2.Location = new System.Drawing.Point(29, 228);
             dungeonHeaderLabel2.Name = "dungeonHeaderLabel2";
-            dungeonHeaderLabel2.Size = new System.Drawing.Size(232, 25);
+            dungeonHeaderLabel2.Size = new System.Drawing.Size(184, 20);
             dungeonHeaderLabel2.TabIndex = 10;
             dungeonHeaderLabel2.Text = "Ingresa Bytes del archivo";
             // 
@@ -236,9 +239,9 @@
             dungeonHeaderLabel1.BackColor = System.Drawing.Color.Transparent;
             dungeonHeaderLabel1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             dungeonHeaderLabel1.ForeColor = System.Drawing.Color.White;
-            dungeonHeaderLabel1.Location = new System.Drawing.Point(23, 93);
+            dungeonHeaderLabel1.Location = new System.Drawing.Point(23, 86);
             dungeonHeaderLabel1.Name = "dungeonHeaderLabel1";
-            dungeonHeaderLabel1.Size = new System.Drawing.Size(282, 25);
+            dungeonHeaderLabel1.Size = new System.Drawing.Size(222, 20);
             dungeonHeaderLabel1.TabIndex = 9;
             dungeonHeaderLabel1.Text = "Ingresa el Nombre del Archivo";
             // 
@@ -246,9 +249,10 @@
             // 
             pictureBox1.ErrorImage = null;
             pictureBox1.Image = (System.Drawing.Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new System.Drawing.Point(363, 163);
+            pictureBox1.Location = new System.Drawing.Point(386, 122);
+            pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new System.Drawing.Size(139, 114);
+            pictureBox1.Size = new System.Drawing.Size(172, 140);
             pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 8;
             pictureBox1.TabStop = false;
@@ -261,8 +265,8 @@
             materialButton1.HighEmphasis = true;
             materialButton1.Icon = null;
             materialButton1.IconType = ReaLTaiizor.Controls.MaterialButton.MaterialIconType.Rebase;
-            materialButton1.Location = new System.Drawing.Point(568, 378);
-            materialButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            materialButton1.Location = new System.Drawing.Point(738, 404);
+            materialButton1.Margin = new System.Windows.Forms.Padding(4);
             materialButton1.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
             materialButton1.Name = "materialButton1";
             materialButton1.NoAccentTextColor = System.Drawing.Color.Empty;
@@ -279,12 +283,13 @@
             materialListBox1.BorderColor = System.Drawing.Color.LightGray;
             materialListBox1.Depth = 0;
             materialListBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            materialListBox1.Location = new System.Drawing.Point(550, 107);
+            materialListBox1.Location = new System.Drawing.Point(719, 122);
+            materialListBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             materialListBox1.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
             materialListBox1.Name = "materialListBox1";
             materialListBox1.SelectedIndex = -1;
             materialListBox1.SelectedItem = null;
-            materialListBox1.Size = new System.Drawing.Size(210, 251);
+            materialListBox1.Size = new System.Drawing.Size(217, 256);
             materialListBox1.TabIndex = 5;
             // 
             // smallLabel1
@@ -293,9 +298,9 @@
             smallLabel1.BackColor = System.Drawing.Color.Transparent;
             smallLabel1.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             smallLabel1.ForeColor = System.Drawing.Color.Green;
-            smallLabel1.Location = new System.Drawing.Point(21, 290);
+            smallLabel1.Location = new System.Drawing.Point(12, 274);
             smallLabel1.Name = "smallLabel1";
-            smallLabel1.Size = new System.Drawing.Size(284, 19);
+            smallLabel1.Size = new System.Drawing.Size(238, 13);
             smallLabel1.TabIndex = 4;
             smallLabel1.Text = "Recuerda que tienen que ser multiplo de 512";
             smallLabel1.Click += smallLabel1_Click;
@@ -314,12 +319,13 @@
             hopeNumeric1.ForeColor = System.Drawing.Color.Black;
             hopeNumeric1.HoverButtonTextColorA = System.Drawing.Color.FromArgb(64, 158, 255);
             hopeNumeric1.HoverButtonTextColorB = System.Drawing.Color.FromArgb(64, 158, 255);
-            hopeNumeric1.Location = new System.Drawing.Point(65, 326);
+            hopeNumeric1.Location = new System.Drawing.Point(51, 333);
+            hopeNumeric1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             hopeNumeric1.MaxNum = 10F;
             hopeNumeric1.MinNum = 0F;
             hopeNumeric1.Name = "hopeNumeric1";
             hopeNumeric1.Precision = 0;
-            hopeNumeric1.Size = new System.Drawing.Size(164, 32);
+            hopeNumeric1.Size = new System.Drawing.Size(144, 32);
             hopeNumeric1.Step = 1F;
             hopeNumeric1.Style = ReaLTaiizor.Controls.HopeNumeric.NumericStyle.LeftRight;
             hopeNumeric1.TabIndex = 1;
@@ -338,17 +344,18 @@
             cyberTextBox2.ColorPen_1 = System.Drawing.Color.FromArgb(29, 200, 238);
             cyberTextBox2.ColorPen_2 = System.Drawing.Color.FromArgb(37, 52, 68);
             cyberTextBox2.CyberTextBoxStyle = ReaLTaiizor.Enum.Cyber.StateStyle.Custom;
-            cyberTextBox2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            cyberTextBox2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             cyberTextBox2.ForeColor = System.Drawing.Color.FromArgb(245, 245, 245);
             cyberTextBox2.Lighting = false;
             cyberTextBox2.LinearGradientPen = false;
-            cyberTextBox2.Location = new System.Drawing.Point(33, 141);
+            cyberTextBox2.Location = new System.Drawing.Point(23, 137);
+            cyberTextBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             cyberTextBox2.Name = "cyberTextBox2";
             cyberTextBox2.PenWidth = 15;
             cyberTextBox2.RGB = false;
             cyberTextBox2.Rounding = true;
             cyberTextBox2.RoundingInt = 60;
-            cyberTextBox2.Size = new System.Drawing.Size(250, 50);
+            cyberTextBox2.Size = new System.Drawing.Size(219, 38);
             cyberTextBox2.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
             cyberTextBox2.TabIndex = 0;
             cyberTextBox2.Tag = "Cyber";
@@ -358,13 +365,14 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            ClientSize = new System.Drawing.Size(800, 450);
+            ClientSize = new System.Drawing.Size(975, 480);
             Controls.Add(airForm1);
             ForeColor = System.Drawing.SystemColors.ControlLight;
             FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            MinimumSize = new System.Drawing.Size(112, 35);
+            Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            MinimumSize = new System.Drawing.Size(98, 26);
             Name = "Form1";
             ShowIcon = false;
             StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
